@@ -8,7 +8,6 @@ import SliderPic from "../src/assets/Slider Project Pic.jpg"
 import StrapiPic from "../src/assets/Strapi Project Pic.jpg"
 
 export const links = [
-  { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#skills", text: "skills" },
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#projects", text: "projects" },
@@ -41,7 +40,7 @@ export const projects = [
     img: GithubUsersPic,
     url: "https://project-github-users.netlify.app/",
     github: "https://github.com/I-am-Esmart/github-users",
-    title: "Github users project",
+    title: "Github users ",
     text: "This project fetches user information (like image, name, github link) from an API and renders it on the screen.",
   },
   {
@@ -49,7 +48,7 @@ export const projects = [
     img: ColorGen,
     url: "https://color-generator-zone.netlify.app/",
     github: "https://github.com/I-am-Esmart/color-generator",
-    title: "Color generator project",
+    title: "Color generator ",
     text: "A color generator that displays different shades of any color selected by the  user, automatically copies any shade of the color selected to the clipboard when the user clicks on the preferred color shade.",
   },
   {
@@ -57,15 +56,15 @@ export const projects = [
     img: TodoPic,
     url: "https://mytodo-appli-cation.netlify.app/",
     github: "https://github.com/I-am-Esmart/todo-list",
-    title: "third project",
-    text: "A todo app with CRUD.",
+    title: "Todo ",
+    text: "A tasks app connected to a backend server. Performs CRUD operations.",
   },
   {
     id: nanoid(),
     img: AccordionPic,
     url: "https://faq-accordion-app.netlify.app/",
     github: "https://github.com/I-am-Esmart/accordion",
-    title: "third project",
+    title: "Accordion project",
     text: "Accordion project with expand and collapse features.",
   },
   {
@@ -73,7 +72,7 @@ export const projects = [
     img: SliderPic,
     url: "https://slider-carousel-project.netlify.app",
     github: "https://github.com/I-am-Esmart/slider",
-    title: "Slider project",
+    title: "Slider ",
     text: "A Slider project.",
   },
   {
@@ -81,7 +80,7 @@ export const projects = [
     img: StrapiPic,
     url: "https://strapi-hover-project.netlify.app",
     github: "https://github.com/I-am-Esmart/strapi-project",
-    title: "Nav-hover project",
+    title: "Nav-hover ",
     text: "Displays submenus when each menu  item (product, solutions, resources in this case) is hovered .",
   },
 ]
