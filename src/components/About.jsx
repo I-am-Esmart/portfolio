@@ -6,9 +6,9 @@ const About = () => {
   return (
     <section className="bg-white py-5" id="about">
       <div className="align-elements grid md:grid-cols-2 items-center">
-        <img src={MyPic} alt="about svg" className="w-80 h-96 ml-6" />
-        <article className="mr-4">
-          <SectionTitle text="About me" className="" />
+        <img src={MyPic} alt="about svg" className="w-80 rounded h-96 ml-4" />
+        <article className="mr-4 ml-4">
+          <SectionTitle text="code and code" className=" " />
           <p className="text-slate-600 mt-8 leading-loose font-semibold">
             A frontend developer with an eye for detail and an open mind for
             learning. I am motivated to learn, grow and excel in my field.
