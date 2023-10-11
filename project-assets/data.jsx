@@ -1,5 +1,8 @@
 import { nanoid } from "nanoid"
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa"
+import { BiLogoTailwindCss } from "react-icons/bi"
+import { RiPsychotherapyFill } from "react-icons/ri"
+import ImageSearchPic from "../src/assets/Image Search Pic.jpg"
 import GithubUsersPic from "../src/assets/GithubUsersPic.jpg"
 import ColorGen from "../src/assets/Color Gen Pic.jpg"
 import TodoPic from "../src/assets/Todo Project Pic.jpg"
@@ -32,16 +35,28 @@ export const skills = [
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
     text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
   },
+  {
+    id: nanoid(),
+    title: "TailwindCSS",
+    icon: <BiLogoTailwindCss className="h-16 w-16 text-emerald-500" />,
+    text: "Expertise in TailwindCSS, designing beautiful and responsive user interfaces appealing to end-users",
+  },
+  {
+    id: nanoid(),
+    title: "Others",
+    icon: <RiPsychotherapyFill className="h-16 w-16 text-emerald-500" />,
+    text: "Sound knowledge and well experienced using tools including context API, React Query for better optimization of web apps.",
+  },
 ]
 
 export const projects = [
   {
     id: nanoid(),
-    img: GithubUsersPic,
-    url: "https://project-github-users.netlify.app/",
-    github: "https://github.com/I-am-Esmart/github-users",
-    title: "Github users ",
-    text: "This project fetches user information (like image, name, github link) from an API and renders it on the screen.",
+    img: ImageSearchPic,
+    url: "https://image-searchsite.netlify.app",
+    github: "https://github.com/I-am-Esmart/image-generator",
+    title: "Image search app ",
+    text: "This project fetches data from unsplash API, with search, automatic light/dark mode functionalities and error handling",
   },
   {
     id: nanoid(),
@@ -51,6 +66,15 @@ export const projects = [
     title: "Color generator ",
     text: "A color generator that displays different shades of any color selected by the  user, automatically copies any shade of the color selected to the clipboard when the user clicks on the preferred color shade.",
   },
+  {
+    id: nanoid(),
+    img: GithubUsersPic,
+    url: "https://project-github-users.netlify.app/",
+    github: "https://github.com/I-am-Esmart/github-users",
+    title: "Github users ",
+    text: "This project fetches user information (like image, name, github link) from an API and renders it on the screen.",
+  },
+
   {
     id: nanoid(),
     img: TodoPic,
