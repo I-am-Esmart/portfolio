@@ -8,7 +8,6 @@ import ColorGen from "../src/assets/Color Gen Pic.jpg"
 import TodoPic from "../src/assets/Todo Project Pic.jpg"
 import AccordionPic from "../src/assets/Accordion Project Pic.jpg"
 import SliderPic from "../src/assets/Slider Project Pic.jpg"
-import StrapiPic from "../src/assets/Strapi Project Pic.jpg"
 
 export const links = [
   { id: nanoid(), href: "#skills", text: "skills" },
@@ -98,13 +97,5 @@ export const projects = [
     github: "https://github.com/I-am-Esmart/slider",
     title: "Slider ",
     text: "A Slider project.",
-  },
-  {
-    id: nanoid(),
-    img: StrapiPic,
-    url: "https://strapi-hover-project.netlify.app",
-    github: "https://github.com/I-am-Esmart/strapi-project",
-    title: "Nav-hover ",
-    text: "Displays submenus when each menu  item (product, solutions, resources in this case) is hovered .",
   },
 ]
