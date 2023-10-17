@@ -51,7 +51,7 @@ const Hero = () => {
                 fontSize: "1rem",
                 width: "8rem",
                 padding: "0.5rem 0.5rem",
-                fontWeight: "bold",
+                borderRadius: "5px",
               }}
             >
               <a download href={resume}>
