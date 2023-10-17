@@ -6,7 +6,7 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa"
 
-import React from "react"
+import resume from "../assets/Emmanuel Joseph CV.pdf"
 
 const Hero = () => {
   return (
@@ -42,6 +42,22 @@ const Hero = () => {
                hover:text-black duration-300"
               />
             </a>
+          </div>
+          <div className="resume-container">
+            <button
+              style={{
+                marginTop: "1rem",
+                background: "white",
+                fontSize: "1rem",
+                width: "8rem",
+                padding: "0.5rem 0.5rem",
+                fontWeight: "bold",
+              }}
+            >
+              <a download href={resume}>
+                Download CV
+              </a>
+            </button>
           </div>
         </article>
 
