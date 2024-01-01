@@ -1,19 +1,22 @@
-import { nanoid } from "nanoid"
-import { FaHtml5, FaJs, FaReact } from "react-icons/fa"
-import { BiLogoTailwindCss } from "react-icons/bi"
-import { RiPsychotherapyFill } from "react-icons/ri"
-import ImageSearchPic from "../src/assets/Image Search Pic.jpg"
-import GithubUsersPic from "../src/assets/GithubUsersPic.jpg"
-import ColorGen from "../src/assets/Color Gen Pic.jpg"
-import TodoPic from "../src/assets/Todo Project Pic.jpg"
-import AccordionPic from "../src/assets/Accordion Project Pic.jpg"
-import SliderPic from "../src/assets/Slider Project Pic.jpg"
+import { nanoid } from "nanoid";
+import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { BiLogoTailwindCss } from "react-icons/bi";
+import { RiPsychotherapyFill } from "react-icons/ri";
+import { SiStyledcomponents } from "react-icons/si";
+import { BsGit } from "react-icons/bs";
+import ImageSearchPic from "../src/assets/Image Search Pic.jpg";
+import GithubUsersPic from "../src/assets/GithubUsersPic.jpg";
+import ColorGen from "../src/assets/Color Gen Pic.jpg";
+import TodoPic from "../src/assets/Todo Project Pic.jpg";
+import AccordionPic from "../src/assets/Accordion Project Pic.jpg";
+import MovieImage from "../src/assets/MovieImage.jpg";
+import CocktailImage from "../src/assets/cocktail project img.jpg";
 
 export const links = [
   { id: nanoid(), href: "#skills", text: "skills" },
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#projects", text: "projects" },
-]
+];
 
 export const skills = [
   {
@@ -42,11 +45,23 @@ export const skills = [
   },
   {
     id: nanoid(),
+    title: "Styled-components",
+    icon: <SiStyledcomponents className="h-16 w-16 text-emerald-500" />,
+    text: "Skilled in Styled Components, combining design and logic for elegant React components. Expertise in enhancing code readability and scalability through Styled Components.",
+  },
+  {
+    id: nanoid(),
+    title: "Git",
+    icon: <BsGit className="h-16 w-16 text-emerald-500" />,
+    text: "Proficient in Git version control, ensuring efficient collaboration and code management.",
+  },
+  {
+    id: nanoid(),
     title: "Others",
     icon: <RiPsychotherapyFill className="h-16 w-16 text-emerald-500" />,
     text: "Sound knowledge and well experienced using tools including context API, React Query for better optimization of web apps.",
   },
-]
+];
 
 export const projects = [
   {
@@ -92,10 +107,18 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: SliderPic,
-    url: "https://slider-carousel-project.netlify.app",
+    img: MovieImage,
+    url: "https://moviesearcher-site.netlify.app/",
     github: "https://github.com/I-am-Esmart/slider",
-    title: "Slider ",
-    text: "A Slider project.",
+    title: "Movie app ",
+    text: "A movie app integrated with TMDb API, fetches movie info with search functionality.",
   },
-]
+  {
+    id: nanoid(),
+    img: CocktailImage,
+    url: "/",
+    github: "https://github.com/I-am-Esmart/slider",
+    title: "Cocktail Maker",
+    text: "A web app that teaches users how to make cocktails (in progress...)",
+  },
+];
