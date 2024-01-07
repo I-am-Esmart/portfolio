@@ -1,12 +1,12 @@
-import heroImg from "../assets/hero.svg"
+import heroImg from "../assets/hero.svg";
 import {
   FaGithubSquare,
   FaLinkedin,
   FaTwitter,
   FaTwitterSquare,
-} from "react-icons/fa"
+} from "react-icons/fa";
 
-import resume from "../assets/Emmanuel Joseph CV.pdf"
+import resume from "../assets/Emmanuel Joseph CV.pdf";
 
 const Hero = () => {
   return (
@@ -43,7 +43,7 @@ const Hero = () => {
               />
             </a>
           </div>
-          <div className="resume-container">
+          {/* <div className="resume-container">
             <button
               style={{
                 marginTop: "1rem",
@@ -58,7 +58,7 @@ const Hero = () => {
                 Download CV
               </a>
             </button>
-          </div>
+          </div> */}
         </article>
 
         <article className="hidden md:block">
@@ -66,7 +66,7 @@ const Hero = () => {
         </article>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

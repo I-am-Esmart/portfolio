@@ -11,6 +11,7 @@ import TodoPic from "../src/assets/Todo Project Pic.jpg";
 import AccordionPic from "../src/assets/Accordion Project Pic.jpg";
 import MovieImage from "../src/assets/MovieImage.jpg";
 import CocktailImage from "../src/assets/cocktail project img.jpg";
+import ContentfulProjectImage from "../src/assets/ContentfulProjectImage.jpg";
 
 export const links = [
   { id: nanoid(), href: "#skills", text: "skills" },
@@ -66,10 +67,27 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: ContentfulProjectImage,
+    url: "https://contentfulcms-project.netlify.app/",
+    github:
+      "https://github.com/YourGitHubUsername/your-contentful-project-repo",
+    title: "Contentful app",
+    text: "A React-based portfolio showcasing past projects, powered by Contentful API. Explore my work with dynamic content loading, seamless navigation, and a user-friendly interface.",
+  },
+  {
+    id: nanoid(),
+    img: CocktailImage,
+    url: "https://cocktail-teacher.netlify.app/",
+    github: "https://github.com/I-am-Esmart/cocktails",
+    title: "Cocktail Teacher",
+    text: "A web app that teaches users how to make cocktails. fetches cocktails Data using thecocktailDb API, with search functionality ",
+  },
+  {
+    id: nanoid(),
     img: ImageSearchPic,
     url: "https://image-searchsite.netlify.app",
     github: "https://github.com/I-am-Esmart/image-generator",
-    title: "Image search app ",
+    title: "Image searcher ",
     text: "This project fetches data from unsplash API, with search, automatic light/dark mode functionalities and error handling",
   },
   {
@@ -99,26 +117,10 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: AccordionPic,
-    url: "https://faq-accordion-app.netlify.app/",
-    github: "https://github.com/I-am-Esmart/accordion",
-    title: "Accordion project",
-    text: "Accordion project with expand and collapse features.",
-  },
-  {
-    id: nanoid(),
     img: MovieImage,
     url: "https://moviesearcher-site.netlify.app/",
     github: "https://github.com/I-am-Esmart/slider",
     title: "Movie app ",
     text: "A movie app integrated with TMDb API, fetches movie info with search functionality.",
-  },
-  {
-    id: nanoid(),
-    img: CocktailImage,
-    url: "/",
-    github: "https://github.com/I-am-Esmart/slider",
-    title: "Cocktail Maker",
-    text: "A web app that teaches users how to make cocktails (in progress...)",
   },
 ];
