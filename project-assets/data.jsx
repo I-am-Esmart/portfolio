@@ -67,15 +67,6 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: ContentfulProjectImage,
-    url: "https://contentfulcms-project.netlify.app/",
-    github:
-      "https://github.com/YourGitHubUsername/your-contentful-project-repo",
-    title: "Contentful app",
-    text: "A React-based portfolio showcasing past projects, powered by Contentful API. Explore my work with dynamic content loading, seamless navigation, and a user-friendly interface.",
-  },
-  {
-    id: nanoid(),
     img: CocktailImage,
     url: "https://cocktail-teacher.netlify.app/",
     github: "https://github.com/I-am-Esmart/cocktails",
