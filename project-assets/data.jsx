@@ -12,6 +12,8 @@ import AccordionPic from "../src/assets/Accordion Project Pic.jpg";
 import MovieImage from "../src/assets/MovieImage.jpg";
 import CocktailImage from "../src/assets/cocktail project img.jpg";
 import ContentfulProjectImage from "../src/assets/ContentfulProjectImage.jpg";
+import clearLinkImage from "../src/assets/clear-link image.jpg";
+import dashboardImage from "../src/assets/dashboard image.jpg";
 
 export const links = [
   { id: nanoid(), href: "#skills", text: "skills" },
@@ -67,12 +69,21 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: clearLinkImage,
+    url: "https://clear-link-project.netlify.app/",
+    github: "https://github.com/I-am-Esmart/TalentSync",
+    title: "ClearLink",
+    text: "A video streaming company website",
+  },
+  {
+    id: nanoid(),
     img: CocktailImage,
     url: "https://cocktail-teacher.netlify.app/",
     github: "https://github.com/I-am-Esmart/cocktails",
     title: "Cocktail Teacher",
     text: "A web app that teaches users how to make cocktails. fetches cocktails Data using thecocktailDb API, with search functionality ",
   },
+
   {
     id: nanoid(),
     img: ImageSearchPic,
@@ -113,5 +124,13 @@ export const projects = [
     github: "https://github.com/I-am-Esmart/slider",
     title: "Movie app ",
     text: "A movie app integrated with TMDb API, fetches movie info with search functionality.",
+  },
+  {
+    id: nanoid(),
+    img: dashboardImage,
+    url: "",
+    github: "",
+    title: "(in progress) Analytics dashboard",
+    text: "A dashboard that shows users activity (in progress)",
   },
 ];
