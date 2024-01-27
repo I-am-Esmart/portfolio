@@ -119,18 +119,18 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: MovieImage,
-    url: "https://moviesearcher-site.netlify.app/",
-    github: "https://github.com/I-am-Esmart/slider",
-    title: "Movie app ",
-    text: "A movie app integrated with TMDb API, fetches movie info with search functionality.",
-  },
-  {
-    id: nanoid(),
     img: dashboardImage,
     url: "",
     github: "",
     title: "(in progress) Analytics dashboard",
     text: "A dashboard that shows users activity (in progress)",
+  },
+  {
+    id: nanoid(),
+    img: MovieImage,
+    url: "https://moviesearcher-site.netlify.app/",
+    github: "https://github.com/I-am-Esmart/slider",
+    title: "Movie app ",
+    text: "A movie app integrated with TMDb API, fetches movie info with search functionality.",
   },
 ];
